@@ -5,9 +5,41 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\sMeiMei</sprite>
+    <sprite>sprites\sWall</sprite>
+    <sprite>sprites\sPlatform</sprite>
+    <sprite>sprites\sMovingPlatform</sprite>
+    <sprite>sprites\sJumpPU</sprite>
+    <sprite>sprites\sKingEnemy</sprite>
+    <sprite>sprites\sCheckpoint</sprite>
+    <sprite>sprites\sCheckpointActive</sprite>
+    <sprite>sprites\sMeiMeiRun</sprite>
+    <sprite>sprites\sMeiMeiJump</sprite>
+    <sprite>sprites\sMeiMeiFall</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\KillPlayer.gml</script>
+    <script>scripts\ApplyFriction.gml</script>
+    <script>scripts\ApplyGravity.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\oPlayer</object>
+    <object>objects\oWall</object>
+    <object>objects\oSolid</object>
+    <object>objects\oJumpPU</object>
+    <object>objects\oEnemy</object>
+    <object>objects\oCheckpoint</object>
+    <object>objects\oPlatform</object>
+    <object>objects\oMovingPlatformH</object>
+    <object>objects\oMovingPlatformV</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rInit</room>
+    <room>rooms\rFirstRoom</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
